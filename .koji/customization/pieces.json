@@ -1,0 +1,56 @@
+{
+  "pieces": {
+    "image1": "https://images.koji-cdn.com/697d81e5-80dc-4ba8-bcef-c72a33c826b0/5afae689-630f-4351-8d86-b37168658423.jpg",
+    "image2": "https://images.koji-cdn.com/697d81e5-80dc-4ba8-bcef-c72a33c826b0/62f8466f-3dba-4344-a7a9-4d6a114da64b.png",
+    "image3": "https://images.koji-cdn.com/697d81e5-80dc-4ba8-bcef-c72a33c826b0/0873f522-9cce-4ad0-9eef-4964e298d5bb.png",
+    "image4": "http://www.clker.com/cliparts/7/u/b/o/h/x/orange-locked-square-button-md.png",
+    "image5": "",
+    "image6": ""
+  },
+  "@@editor": [
+    {
+      "key": "pieces",
+      "name": "Pieces",
+      "icon": "💎",
+      "source": "pieces.json",
+      "fields": [
+        {
+          "key": "image1",
+          "name": "Piece 1 Image",
+          "type": "image",
+          "description": "URL of image to put on Piece 1"
+        },
+        {
+          "key": "image2",
+          "name": "Piece 2 Image",
+          "type": "image",
+          "description": "URL of image to put on Piece 2"
+        },
+        {
+          "key": "image3",
+          "name": "Piece 3 Image",
+          "type": "image",
+          "description": "URL of image to put on Piece 3"
+        },
+        {
+          "key": "image4",
+          "name": "Piece 4 Image",
+          "type": "image",
+          "description": "URL of image to put on Piece 4"
+        },
+        {
+          "key": "image5",
+          "name": "Piece 5 Image",
+          "type": "image",
+          "description": "URL of image to put on Piece 5"
+        },
+        {
+          "key": "image6",
+          "name": "Piece 6 Image",
+          "type": "image",
+          "description": "URL of image to put on Piece 6"
+        }
+      ]
+    }
+  ]
+}
