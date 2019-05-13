@@ -4,7 +4,7 @@
 
 -------
 # Where to go
-1. Your Frontend code is located at /frontend/pages and the main game page is located at [GamePage](#~/frontend/pages/GamePage/index.js)
+1. Your Frontend code is located at /frontend/pages and the main game page is located at [HomePage](#~/frontend/pages/HomePage/index.js)
 2. 3 Visual Customization Controls (VCCs) have been added to the template. These can be quickly modified to your applicaiton
     - [Colors](#~/.koji/customization/style.json!visual) - Change the text color, background color, & link text color.
     - [Images](#~/.koji/customization/images.json!visual) - Change the spinning icon.

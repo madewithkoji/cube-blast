@@ -22,12 +22,6 @@
           "name": "Match Sound",
           "description": "URL of audio file to play when a match is found",
           "type": "sound"
-        },
-        {
-          "key": "swappingSound",
-          "name": "Swap Sound",
-          "description": "URL of audio file to play when two pieces are swapped",
-          "type": "sound"
         }
       ]
     }
