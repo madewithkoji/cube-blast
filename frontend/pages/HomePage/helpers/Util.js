@@ -1,5 +1,5 @@
 // just random stuff that doesn't fit anywhere else.
-let { koji } = process.env;
+import Koji from 'koji-tools';
 
 function getBlockSize(rows, columns) {
     return Math.min(
@@ -9,16 +9,16 @@ function getBlockSize(rows, columns) {
 }
 
 function getColor(type) {
-    return koji.style[`piece${type + 1}`];
+    return Koji.config.style[`piece${type + 1}`];
 }
 
 function getImage(type) {
-    return koji.pieces[`image${type + 1}`];
+    return Koji.config.pieces[`image${type + 1}`];
 }
 
 function getNumTypes() {
     let i = 0;
-    while(koji.pieces[`image${i + 1}`] && koji.pieces[`image${i + 1}`].length !== 0) i ++;
+    while(Koji.config.pieces[`image${i + 1}`] && Koji.config.pieces[`image${i + 1}`].length !== 0) i ++;
     console.log(i);
     return i;
 }

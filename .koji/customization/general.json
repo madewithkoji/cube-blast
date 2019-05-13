@@ -5,7 +5,7 @@
     "fontFamily": "https://fonts.googleapis.com/css?family=Nunito",
     "backgroundImage": "https://images.koji-cdn.com/697d81e5-80dc-4ba8-bcef-c72a33c826b0/97c4cdbe-3f67-4f11-bfe1-5a68b0ed794c.jpg",
     "width": "8",
-    "height": "10",
+    "height": "8",
     "animationLength": "600",
     "baseScore": "100",
     "moves": "25"
