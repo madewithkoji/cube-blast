@@ -1,5 +1,6 @@
 import React from 'react';
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
+import Koji from 'koji-tools';
 
 const Overlay = styled.div`
     transition: background-color 0.5s ease-in-out;
@@ -18,7 +19,7 @@ const Overlay = styled.div`
 
 const Modal = styled.div`
     width: 250px;
-    background-color: ${({ theme }) => theme.style.backgroundColor};
+    background-color: ${() => Koji.config.style.backgroundColor};
     box-shadow: 0 6px 22px 0 rgba(0,0,0,0.42);
     padding: 16px;
 `;
@@ -29,8 +30,8 @@ const Text = styled.h1`
 
 const Button = styled.button`
     outline: none;
-    border: 1px solid ${({ theme }) => theme.style.textColor};
-    color: ${({ theme }) => theme.style.textColor};
+    border: 1px solid ${() => Koji.config.style.textColor};
+    color: ${() => Koji.config.style.textColor};
     background: none;
     font-size: 24px;
     transition: background 0.1s ease-in-out;
